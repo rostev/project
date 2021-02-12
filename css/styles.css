@@ -1,0 +1,8 @@
+.container {
+    background-color: lightblue;
+    box-shadow: 0 0 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 20px;
+}
