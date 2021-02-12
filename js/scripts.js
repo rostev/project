@@ -69,5 +69,28 @@ console.log("=======================");
 const user = "Boris";
 alert(`Hello, ${user}`);*/
 
+/*
 console.log("array" + " - object");
+console.log("=======================");*/
+
+const numberOfFilms = +prompt("How many films have you watched?", "");
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+const lastFilm = prompt("One of the last movies you watched?", "");
+const numberOfPoints = +prompt("How many points would you rate the film?", "");
+
+const lastFilm1 = prompt("One of the last movies you watched?", "");
+const numberOfPoints1 = +prompt("How many points would you rate the film?", "");
+
+personalMovieDB.movies[lastFilm] = numberOfPoints;
+personalMovieDB.movies[lastFilm1] = numberOfPoints1;
+
+console.log(personalMovieDB);
 console.log("=======================");

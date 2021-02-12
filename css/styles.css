@@ -5,4 +5,5 @@
     -moz-border-radius: 7px;
     border-radius: 7px;
     padding: 20px;
+    -moz-user-select: none;
 }
