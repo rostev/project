@@ -1,4 +1,5 @@
 "use strict";
+
 /*
 
 /!*
@@ -73,7 +74,7 @@ alert(`Hello, ${user}`);*/
 console.log("array" + " - object");
 console.log("=======================");*/
 
-const numberOfFilms = +prompt("How many films have you watched?", "");
+/*const numberOfFilms = +prompt("How many films have you watched?", "");
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -93,4 +94,113 @@ personalMovieDB.movies[lastFilm] = numberOfPoints;
 personalMovieDB.movies[lastFilm1] = numberOfPoints1;
 
 console.log(personalMovieDB);
+console.log("=======================");*/
+
+/*
 console.log("=======================");
+console.log([] + 1 + 2);
+console.log("=======================");
+console.log([] + false - null + true);
+console.log("=======================");
+console.log("1"[0]);*/
+
+/*if (4 === 7) {
+    console.log("4 = 7");
+} else {
+    console.log("4 != 7");
+}
+
+console.log("=======================");
+
+const number = 7;
+
+switch (number) {
+    case 5:
+        console.log("5");
+        break;
+    case 8:
+        console.log("8");
+        break;
+    case 7:
+        console.log("7");
+        break;
+    default:
+        console.log("ERROR!!!");
+        break;
+}
+
+console.log("=======================");*/
+
+/*let num = 23;
+
+function showFirstMessage(text) {
+    console.log(text);
+
+    let num = 45;
+    console.log(num);
+}
+
+showFirstMessage("Hello from showFirstMessage!!!");
+
+console.log("=======================");
+console.log(num);
+
+function calc(firstNumber, secondNumber) {
+    return firstNumber + secondNumber;
+}
+
+console.log("=======================");
+console.log(calc(4, 5));
+
+console.log("=======================");
+console.log(calc(12, 45));
+
+function ret() {
+    return 34;
+}
+
+const logger = function () {
+    console.log("=======================");
+    console.log("Hello from logger");
+};
+
+logger();
+
+const secondCalc = (a, b) => a + b;*/
+
+/*
+const str = "Ruprecht Freeman";
+// const arr = [1, 2, 3];
+
+console.log(str[2]);
+console.log("=======================");
+
+console.log(str.toUpperCase());
+console.log("=======================");
+
+console.log(str.toLowerCase());
+console.log("=======================");
+
+console.log(str.indexOf("cht"));
+console.log("=======================");
+
+console.log(str.slice(-5, -2));
+console.log("=======================");
+
+console.log(str.substring(0, 8));
+console.log("=======================");
+
+console.log(str.substr(0, 8));
+console.log("=======================");
+
+let number = 12.34;
+
+console.log(Math.round(number));
+console.log("=======================");
+
+number = "12.34px";
+
+console.log(parseFloat(number));
+console.log("=======================");
+*/
+
